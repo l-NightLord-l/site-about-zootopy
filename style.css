@@ -1,0 +1,159 @@
+body {
+  font-family: Comic Sans MS;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.logo {
+  text-align: center;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid;
+}
+
+img.main {
+  margin-top: 100px;
+}
+
+nav {
+  position: fixed;
+  border-bottom: 2px solid;
+  width: 100%;
+  background-color: #DEDEDE;
+  height: 90px;
+}
+
+.head {
+  list-style-type: none;
+  display: inline;
+  text-align: left;
+  font-family: fantasy;
+  margin: 5px;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: white;
+  transition: 1s background-color;
+  box-sizing: content-box;
+  width: 50%;
+}
+
+.head2 {
+  list-style-type: none;
+  text-align: right;
+  display: inline;
+  font-family: fantasy;
+  margin: 5px;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: white;
+  display: none;
+  transition: 1s background-color;
+  padding: 3px;
+}
+
+.ul2 {
+  box-sizing: content-box;
+  width: 110px;
+  text-align: right;
+}
+
+.head3 {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+  cursor: pointer;
+  font-family: fantasy;
+  margin: 5px;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: white;
+  transition: 1s background-color;
+}
+
+.head3:hover {
+  background-color: #E32E2E;
+  transition: 1s;
+}
+
+.ul2:hover .head2{
+  transition: 3s display;
+  display: block;
+}
+
+.ul2 {
+  background-color: #DEDEDE;
+}
+
+.head2:hover {
+  background-color: #E32E2E;
+  transition: 1s;
+}
+
+.ul2 {
+  text-align: right;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.navigation {
+  display: block;
+}
+
+.head:hover {
+  background-color: #E32E2E;
+  transition: 1s;
+}
+
+div.we {
+  display: flex;
+  border-bottom: 3px solid;
+  margin-bottom: 10px;
+}
+
+div.leson {
+  display: flex;
+  border-bottom: 3px solid;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  display: block;
+  margin: 5px;
+}
+
+ul.ulleson {
+  display: flex;
+}
+
+.students {
+  border-bottom: 3px solid;
+}
+
+.ul3 {
+  display: flex;	
+}
+
+.img {
+  display: flex;
+  padding: 5px;
+}
+
+.opendoor {
+  border-bottom: 3px solid;
+}
+
+footer {
+  padding: 10px;
+}
